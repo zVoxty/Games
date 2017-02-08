@@ -54,7 +54,7 @@ void Enemy::move() {
 
 	//Destroy enemy when it goes out of the screen
 	if (pos().y() > game->windowHeight - 70) {
-		//game->health->decrease();
+		game->health->decrease();
 		scene()->removeItem(this);
 		delete this;
 	}

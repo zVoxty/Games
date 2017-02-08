@@ -17,7 +17,7 @@ public: // Public Functions
 	Game();
 	~Game();
 
-	void mouseMoveEvent(QMouseEvent * event);
+	
 
 public: // Public Variables
 	QGraphicsScene * scene;

@@ -18,7 +18,6 @@ public:
 	~Player();
 
 	void keyPressEvent(QKeyEvent * event);
-	void mouseMoveEvent(QMouseEvent * event);
 
 public slots:
 	void spawn();
